@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 1
+names: ['Nail_clipper']
+
+roboflow:
+  workspace: testobj-ollqp
+  project: find_nail_clipper
+  version: 2
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/testobj-ollqp/find_nail_clipper/dataset/2
